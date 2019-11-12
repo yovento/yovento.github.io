@@ -57,7 +57,7 @@ $(window).on('load', function() {
 			}
 		});
 	}
-	
+	audio.play();
 	/* -----------------------------------
 			3. Isotope Portfolio Setup
 	----------------------------------- */

@@ -198,7 +198,7 @@ blockquote span img {
 /* Music Bg */
 .music-bg {
 	display: block;
-	cursor: pointer;
+	cursor: pointer !important;
 	padding: 40px 0;
 	text-align: center;
 	border-right-color: #0e0f10;

@@ -37,12 +37,13 @@ $(window).on('load', function() {
 	/* -----------------------------------
 			  2. Sound Setup
 	----------------------------------- */
-	var audio = document.getElementById("audio-player");
-    audio.volume = 0.2;
+	$('body').append('<audio loop autoplay volume="1" id="audio-player"><source src="music.mp3" type="audio/mpeg"></audio>');
+    	var audio = document.getElementById("audio-player");
+    	audio.volume = 0.2;
 	
 	if($(window).length) {
 		$('.music-bg').css({'visibility':'visible'});
-		$('body').addClass("audio-on");
+		$('body').addClass("audio-off");
 		if ($('body').hasClass('audio-off')) {
         	$('body').removeClass('audio-on');
 		} 
@@ -56,7 +57,7 @@ $(window).on('load', function() {
 			}
 		});
     }
-
+    
 	/* -----------------------------------
 			3. Isotope Portfolio Setup
 	----------------------------------- */

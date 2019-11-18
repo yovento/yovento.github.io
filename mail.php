@@ -1,6 +1,6 @@
 <?php
-	$to = "you-email@example.com";
-	$tema = "Title";
+	$to = "jovento@gmail.com";
+	$tema = "Contact from GitHub Page";
 	$message = "Name: ".$_POST['name']."<br>";
 	$message .= "Email: ".$_POST['email']."<br>";
 	$message .= "Message: ".$_POST['note']."<br>";

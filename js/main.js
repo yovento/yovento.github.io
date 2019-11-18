@@ -43,7 +43,7 @@ $(window).on('load', function() {
 	
 	if($(window).length) {
 		$('.music-bg').css({'visibility':'visible'});
-		$('body').addClass("audio-off");
+		$('body').addClass("audio-on");
 		if ($('body').hasClass('audio-off')) {
         	$('body').removeClass('audio-on');
 		} 
